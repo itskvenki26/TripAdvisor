@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TripPlanner</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="btncreate">CreateTrip</string>
+    <string name="btnview">ViewTrip</string>
+    <string name="btnexit">Cancel</string>
+    <string name="headwelcome">Trip APP</string>
+    <string name="headcreatetrip">CreateTrip</string>
+    <string name="labeltripname">TripName</string>
+    <string name="labeldestination">Destination</string>
+    
+    <string name="labeldate">Date</string>
+    <string name="labeltime">Time</string>
+    <string name="btncreatetrip">Create</string>
+    <string name="headviewtrip">View Trip</string>
+    <string name="btndate">Date</string>
+    <string name="btnadd">+</string>
+    <string name="labelfriend">Friends</string>
+    <string name="labelfriendname">NAME</string>
+    <string name="labellocationfriend">LOCATION</string>
+    
+    <string name="labelcreator">Creator</string>
+    <string name="headingviewtriphistory">Trip History</string>
+    <string name="btnviewHistory">View Trip History</string>
+    <string name="btndelete">X</string>
+    <string name="labelTripid">Trip Id</string>
+    <string name="headingHistory">Trip History</string>
+    <string name="labelphoneno">PhoneNum</string>
+    <string name="labeltriprefid">Server Ref Id</string>
+    <string name="labelmilesleft">miles</string>
+    <string name="labeltimeleft">time</string>
+
+</resources>

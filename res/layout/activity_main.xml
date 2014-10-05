@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity" >
+
+   <TextView
+       android:id="@+id/headwelcome"
+       style="@style/Header"
+       android:text="@string/headwelcome" />
+
+   <Button
+       android:id="@+id/btncreate"
+       style="@style/Button"
+       android:layout_below="@+id/headwelcome"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="30dp"
+       android:text="@string/btncreate"
+       android:onClick="onClick" />
+
+   <Button
+       android:id="@+id/btnview"
+       style="@style/Button"
+       android:layout_below="@+id/btncreate"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="30dp"
+       android:text="@string/btnview"
+       android:onClick="onClick" />
+
+   <TextView
+       android:id="@+id/errordev"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignBottom="@+id/btnexit"
+       android:layout_centerHorizontal="true"
+       android:layout_marginBottom="55dp"
+       android:textAppearance="?android:attr/textAppearanceLarge" />
+   
+    <LinearLayout 
+       android:id="@+id/statuslayout"
+       android:orientation="vertical"
+       android:background="#CCb3b3b3"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+       
+       <LinearLayout 
+	       android:id="@+id/statuslayoutline1"
+	       android:orientation="horizontal"
+	       android:background="#CCb3b3b3"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content">
+           
+		</LinearLayout>
+       
+   </LinearLayout>
+
+   <Button
+       android:id="@+id/btnexit"
+       style="@style/Button"
+       android:layout_alignParentBottom="true"
+       android:layout_centerHorizontal="true"
+       android:layout_marginBottom="15dp"
+       android:onClick="onClick"
+       android:text="@string/btnexit" />
+    
+</RelativeLayout>
